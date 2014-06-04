@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<statements>
+	<statement name="test1">
+	<![CDATA[
+		select 1
+	]]>
+	</statement>
+	<statement name="userCount">
+		<![CDATA[
+			select count(*) from user
+		]]>
+	</statement>
+
+	<statement name="allRecords">
+		<![CDATA[
+			select * from user
+		]]>
+	</statement>
+	
+</statements>
